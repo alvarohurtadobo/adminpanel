@@ -1,0 +1,31 @@
+{
+  "name": "ventocreditadmin",
+  "version": "1.0.0",
+  "description": "New Vento Credit admin portal",
+  "dependencies": {
+    "@headlessui/react": "^1.6.3",
+    "next": "^13.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.3.1"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "admin",
+    "credit"
+  ],
+  "author": "Alvaro Hurtado",
+  "license": "ISC"
+}
