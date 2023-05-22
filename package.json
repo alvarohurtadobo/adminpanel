@@ -4,6 +4,9 @@
   "description": "New Vento Credit admin portal",
   "dependencies": {
     "@headlessui/react": "^1.6.3",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "chart.js": "^4.3.0",
     "next": "^13.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -15,7 +18,8 @@
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.4",
     "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.23"},
+    "tailwindcss": "^3.0.23"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

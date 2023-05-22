@@ -6,9 +6,9 @@ import SideNavbar from "../components/SideNavbar"
 export default function AppWrapper({ Component, pageProps }) {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>{pageProps.title ? pageProps.title : "Our Basic Title"}</title>
-      </Head>
+      </Head> */}
       <Layout>
         <Component {...pageProps} />
       </Layout>

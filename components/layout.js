@@ -6,7 +6,7 @@ export default function Layout({ children }) {
 
   return (
     <>
-      <div>
+      {/* <div>
         <h1>OurSite</h1>
         <nav className="header-nav">
           <ul>
@@ -27,11 +27,11 @@ export default function Layout({ children }) {
             </li>
           </ul>
         </nav>
-      </div>
+      </div> */}
       {children}
-      <div className="site-footer">
+      {/* <div className="site-footer">
         <p>Footer text, all rights reserved &copy;</p>
-      </div>
+      </div> */}
     </>
   )
 }
