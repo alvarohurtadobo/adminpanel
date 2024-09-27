@@ -17,7 +17,6 @@ const OverviewPage = () => {
             height={800} // Desired size with correct aspect ratio
             width={800} // Desired size with correct aspect ratio
             alt="Invoice"
-            
         />
         </div>
       </div>
